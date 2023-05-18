@@ -15,11 +15,4 @@ int main() {
         for (int j = 0; j < dimension; j++) {
             matriz[i][j] = 0;
         }
-    }
-
-    // Establecer 1 en la diagonal principal
-    for (int i = 0; i < dimension; i++) {
-        matriz[i][i] = 1;
-    }
-
-
+   
