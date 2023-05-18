@@ -16,3 +16,10 @@ int main() {
             matriz[i][j] = 0;
         }
     }
+
+    // Establecer 1 en la diagonal principal
+    for (int i = 0; i < dimension; i++) {
+        matriz[i][i] = 1;
+    }
+
+
